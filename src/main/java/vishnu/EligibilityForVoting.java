@@ -22,6 +22,7 @@ public class EligibilityForVoting {
 	}
 	public static boolean eligibility (int age)
 	{
+
 		boolean eligible=false;
 		if(age>=18)
 		{
