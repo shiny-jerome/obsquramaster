@@ -6,8 +6,8 @@ public class Banking {
 		Scanner reader=new Scanner(System.in);
 		char wish;
 		int total=1000000;
-		int depositAmount=0;
-		int withdrawAmount=0;
+		int deposit=0;
+		int withdraw=0;
 		
 	do
 	{
@@ -18,20 +18,19 @@ public class Banking {
 		{
 		case 1:
 			System.out.println("Enter the amount you need to add: ");
-			int deposit=reader.nextInt();
+			deposit=reader.nextInt();
 			deposit(deposit,total);
-			depositAmount+=deposit;
+
 			System.out.println("Succesfully deposited1 the amount!");
 			break;
 		case 2:
 			System.out.println("Enter the amount to withdraw");
-			int withdraw=reader.nextInt();
+			withdraw=reader.nextInt();
 			withdraw(withdraw,total);
-			withdrawAmount+=withdraw;
 			System.out.println("Succesfully withdrawn the amount");
 			break;
 		case 3:			
-			currentBalance(total,depositAmount,withdrawAmount);
+			currentBalance(total,deposit,withdraw);
 			break;
 		}
 		System.out.println("Do you wish to do again?/npress 'y' for YES and 'n' for NO");
@@ -57,9 +56,9 @@ public class Banking {
 		}
 		
 	}
-	public static void currentBalance(int total,int depositAmount, int withdrawAmount)
+	public static void currentBalance(int total,int deposit, int withdraw)
 	{
-		int currBalance=total+depositAmount-withdrawAmount;
+		int currBalance=total+deposit-withdraw;
 		System.out.println("Balance: "+currBalance);
 	}
 }

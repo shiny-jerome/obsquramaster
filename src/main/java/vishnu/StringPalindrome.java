@@ -9,8 +9,6 @@ public class StringPalindrome {
 		{
 			newWord=newWord+a.charAt(i);
 		}
-		
-		
 		if(a.equals(newWord))
 		{
 			System.out.println("This word is palindrome");
