@@ -7,7 +7,7 @@ public class StringPalindrome {
 		String newWord="";
 		for (int i=a.length()-1;i>=0;i--)
 		{
-			newWord=newWord+a.charAt(i);
+			newWord=newWord+a.charAt(i); 
 		}
 		if(a.equals(newWord))
 		{
