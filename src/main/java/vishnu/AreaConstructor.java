@@ -2,6 +2,7 @@ package vishnu;
 
 public class AreaConstructor {
 	
+	
 	public AreaConstructor(float a)
 	{
 		float area=3.14f*a*a;

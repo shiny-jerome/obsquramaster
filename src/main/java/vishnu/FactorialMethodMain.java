@@ -7,9 +7,9 @@ public class FactorialMethodMain {
 		System.out.println("Enter a number to find it's factorial");
 		int num=reader.nextInt();
 		
-		FactorialMethod obj=new FactorialMethod();
-		obj.calculation(num);
-		obj.print();
+		FactorialMethod vishnu=new FactorialMethod();
+		vishnu.calculation(num);
+		vishnu.print();
 
 	}
 

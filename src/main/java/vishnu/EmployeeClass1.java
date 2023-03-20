@@ -1,7 +1,7 @@
 package vishnu;
 import java.util.Scanner;
 public class EmployeeClass1 {
-	
+		
 	int basicPay;
 	int decuction;
 	int bonusPay;
@@ -16,7 +16,6 @@ public class EmployeeClass1 {
 		System.out.print("Enter bonus pay:");
 		bonusPay=reader.nextInt();
 	
-
 	}
 
 }
