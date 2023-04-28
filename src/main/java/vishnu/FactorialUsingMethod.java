@@ -11,7 +11,8 @@ public class FactorialUsingMethod {
 	public static void factorial(int num)
 	{	
 		int facto=1;
-		for(int i=1;i<=num;i++) {
+		for(int i=1;i<=num;i++) 
+		{
 		facto=facto*i;
 		}
 		System.out.println("Factorial= "+facto);

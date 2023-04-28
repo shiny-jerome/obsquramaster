@@ -9,7 +9,7 @@ public class StringPalindromeMain {
 		String word=reader.next();
 		
 		StringPalindrome obj=new StringPalindrome(word);
-
+		
 	}
 
 }

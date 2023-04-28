@@ -10,7 +10,7 @@ public class DiscountParameterized {
 			sum=sum+price;
 		}	
 	}
-	
+	 
 	public void checkDiscount()
 	{
 	if (sum>=5000)

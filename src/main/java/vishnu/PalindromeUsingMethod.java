@@ -15,10 +15,10 @@ public class PalindromeUsingMethod {
 	public static int reverse(int num)
 	{
 		int reverse=0;
-		while(num!=0)
+		while(num!=0)      
 		{
-			int remainder=num%10;
-			reverse=reverse*10+remainder;
+			int remainder=num%10; 
+			reverse=reverse*10+remainder; 
 			num=num/10;
 		}
 		return reverse;
@@ -35,5 +35,4 @@ public class PalindromeUsingMethod {
 			System.out.println("The number is not palindrome");
 		}
 	}
-
 }
