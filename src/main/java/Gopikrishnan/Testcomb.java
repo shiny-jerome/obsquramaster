@@ -35,8 +35,7 @@ public class Testcomb {
 							}
 							System.out.println();
 					}
-					System.out.println("Do you want to continue y or n");
-					   c =sc.nextLine();
+					
 				
 			
 			break;
@@ -86,8 +85,7 @@ public class Testcomb {
 				System.out.println("entered character is not vowel");
 				break;
 			}
-			System.out.println("Do you want to continue y or n");
-			   c =sc.nextLine();
+			
 			break;
 			
 			//vowel ends
@@ -111,19 +109,21 @@ public class Testcomb {
 	        else {
 	        	System.out.println("not palindrome");
 	        }
-	        System.out.println("Do you want to continue y or n");
-			   c =sc.nextLine();
+	       
 			break;
 			
 		default:
 			System.out.println("not a valid oprtion");
-			System.out.println("Do you want to continue y or n");
-			   c =sc.next();
+			
 			break;
 			
 			//palindrome ends
 		}
-		}while(c.equalsIgnoreCase("Y"));
+		System.out.println("Do you want to continue y or n");
+		   c =sc.next();
+		}
+		
+		while(c.equalsIgnoreCase("Y"));
 	}
 	
 

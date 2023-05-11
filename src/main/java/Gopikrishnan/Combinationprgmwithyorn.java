@@ -2,7 +2,7 @@ package Gopikrishnan;
 
 import java.util.Scanner;
 
-public class Combinationprgm {
+public class Combinationprgmwithyorn {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,12 +12,13 @@ public class Combinationprgm {
 		System.out.println("2. Odd or Even");
 		System.out.println("3. Vowel or Not");
 		System.out.println("4. Palindrome");
-		System.out.println("Enter your option: ");
-		Scanner sc=new Scanner(System.in);
-		String c="";
-			
+		String c="";// this var for y/n, need to declare before do and switch otherwise we can't access this variable
 		
-		int option=sc.nextInt();
+		do {// do starts
+			// 
+			System.out.println("Enter your option: ");// need to show this print after selecting y/n so that we need to give these inside 'do'.
+			Scanner sc=new Scanner(System.in);
+			int option=sc.nextInt();
 		switch (option) {
 		case 1:
 			System.out.println("PYRAMID");
@@ -111,6 +112,10 @@ public class Combinationprgm {
 			
 			//palindrome ends
 		}
+		System.out.println("Do you want to continue? y/n");// yes or no
+		c=sc.next();// for y/n
+		}// do ends, while starts
+		while(c.equalsIgnoreCase("Y"));//while ends
 	}
 	
 

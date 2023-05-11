@@ -17,6 +17,7 @@ public class Palindrome {
             sum = sum * 10 + n;
             m = m / 10;
         }
+        System.out.println(sum);
         if(temp==sum) {
         	System.out.println("Palindrome");
         }
