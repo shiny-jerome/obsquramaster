@@ -6,8 +6,11 @@ public class Vowels {
 
 	public static void main(String[] args)
 	{
-		int vowel='k';
-		switch(vowel)
+		Scanner reader =new Scanner(System.in);
+	System.out.println("Enter character");
+	char letter=reader.next().charAt(0);
+	switch (letter)
+		
 		{
 		    case 'a':
 			System.out.println("Vowel");

@@ -7,8 +7,8 @@ public class Vowel {
 		System.out.println("Enter the Character");
 		Scanner letter=new Scanner(System.in);
 		
- 		ch=letter.nextLine().charAt(0);
-		switch(ch)
+ 		ch letter=sc.nextLine().charAt(0);
+		switch(letter)
 		{
 	
 	case 'a':
