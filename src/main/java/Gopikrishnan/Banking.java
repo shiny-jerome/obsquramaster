@@ -3,9 +3,9 @@ package Gopikrishnan;
 import java.util.Scanner;
 
 public class Banking {
-	static int totalbalance=0;
+	static int totalbalance=0;// eath functionil veno call cheyyam class object venda
 	Banking bg=new Banking();
-
+int a=0;//functionil call cheyyan class nte obj create cheyyanam
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -22,11 +22,11 @@ public class Banking {
 	}
 	
 	
-	public static int deposit(int dep) {
+	public static void deposit(int dep) {
 		
-		int amount=dep;
+		totalbalance=totalbalance+dep;
 		System.out.println("deposited amount "+amount);
-		return amount;
+		//return amount;
 		
 		
 	}
