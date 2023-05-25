@@ -6,6 +6,11 @@ public class Constructor_student_mark {
 		mark1=m1;
 		mark2=m2;
 		mark3=m3;
+		
+		
+	}
+
+	public void calculateTotal() {
 		int total=mark1+mark2+mark3;
 		System.out.println(total);
 		if(total>=40) {
@@ -25,7 +30,10 @@ public class Constructor_student_mark {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Constructor_student_mark c1=new Constructor_student_mark(10,5,10);
+		c1.calculateTotal();
 		Constructor_student_mark c2=new Constructor_student_mark(30,5,10);
+		c2.calculateTotal();
+		
 	}
 
 }

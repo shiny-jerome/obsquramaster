@@ -42,7 +42,8 @@ public class Area_of_figures_constructor {
 		c=sc.next();// for y/n
 		}while(c.equalsIgnoreCase("Y"));
 
-	}
+	}//main method ends
+	
 	public  Area_of_figures_constructor(float r) {
 		//float pi=;
 		
