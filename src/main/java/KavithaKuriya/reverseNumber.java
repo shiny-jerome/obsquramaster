@@ -8,6 +8,7 @@ public class reverseNumber {
 	public static void main(String[] args) {
 		char [] text;
 		int i;
+		
 		Scanner reader=new Scanner(System.in);
 		System.out.println("Enter the number that you want to revser");
 		int input =reader.nextInt();
@@ -15,7 +16,7 @@ public class reverseNumber {
 		text=str1.toCharArray();
 		for(i=text.length-1;i>=0;i--){
 			System.out.print(text[i]);
-		
+		 
 	}
 		
 	}
