@@ -52,9 +52,9 @@ class Discount
        float x=reader.nextFloat();
        float y=reader.nextFloat();
        float z=reader.nextFloat();
-       System.out.println("The purchased items" +a1);
-       System.out.println("The purchased items" +b1);
-       System.out.println("The purchased items" +c1);
+       //System.out.println("The purchased items" +a1);
+       //System.out.println("The purchased items" +b1);
+       //System.out.println("The purchased items" +c1);
        total(x,y,z);
        float s=discount();
        

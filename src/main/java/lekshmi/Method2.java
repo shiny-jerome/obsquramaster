@@ -2,7 +2,8 @@ package lekshmi;
 import java.util.Scanner;
 public class Method2 {
 
-	
+	 String n;
+     int a;
 
 	
 
