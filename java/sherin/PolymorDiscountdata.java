@@ -1,31 +1,34 @@
 package sherin;
 import java.util.*;
 public class PolymorDiscountdata {
-	
+	int amt;
 	public static void main(String args[])
 	{
-		PolymorDiscount disc;
-		
-		disc=new PolymorDiscount();
-		disc.discount();
-		
-		
-		disc=new  PolymorOffseason();
-		disc.discount();
-		
-		
-		disc=new PolymorOnseason();
-		disc.discount();
-		
+
 		System.out.println("Enter the amount ");
 		Scanner reader=new Scanner (System.in);
-		float amount=reader.nextFloat();
-		System.out.println("Enter the mont of your puchase");
+		int amt=reader.nextInt();
+	
+		PolymorDiscount	disc;
+
+			
+		System.out.println("Enter the month of your puchase");
 		String season= reader.next();
-		if (season.equals("January")||season.equals("February"))
+		if (season.equals("January")||season.equals("February")||season.equals("march"))
 		{
-		 
+			disc=new PolymorOffseason();
+			disc.discount(amt);
+		
+			
 	}
+		else
+		{
+
+			disc=new PolymorOnseason();
+			disc.discount(amt);
+						
+		}
+		}
 
 }
-}
+
